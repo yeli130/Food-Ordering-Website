@@ -1,0 +1,19 @@
+<script>
+    function logout() {
+        alert("You are now logged out!");
+        deleteCookie("firstname");
+        window.location.href = "index.php";
+    }
+</script>
+<header class="header">
+    <img class="logo" src="./final project imagines/logo.png" alt="logo">
+    <nav>
+      <ul class="nav-items">
+        <li><a class="nav-links" href="index.php">Home</a></li>
+        <li><a class="nav-links" href="menu.php">Menu</a></li>
+        <li><a class="nav-links" href="aboutUs.php">About Us</a></li>
+        <li><a class="nav-links" href="contactUs.php">Contact Us</a></li>
+      </ul>
+    </nav>
+    <div class="shopping-cart-login"><span id="login_firstname"></span>&nbsp;&nbsp;<a href="#" onclick="logout()" id="logout_link">Logout</a>&nbsp;&nbsp;<a href="password.php" id="change_password_id">Change Password</a><i class="fa-solid fa-user" onclick="window.location.href='login.php'"></i><i class="fa-solid fa-cart-shopping" onclick="window.location.href='shoppingCart.php'"></i></div>
+  </header>

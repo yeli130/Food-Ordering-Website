@@ -1,0 +1,223 @@
+body {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: sienna;
+    align-items: center;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+  }
+
+  .logo {
+    height: 70px;
+    border-radius: 50%;
+    margin:30px;
+    align-items: center;
+  }
+  
+  .nav-items {
+    list-style: none;
+    display: flex;
+    padding: 60px;
+  }
+  
+  .nav-items > li {
+    margin-right: 20px;
+    font-size: large;
+    padding: 15px;
+  }
+  
+  .nav-links {
+    color: #f2f0f8;
+    text-decoration:solid;
+  }
+
+  .nav-links:active {
+    color: #fff003;
+  }
+  .nav-links:hover {
+    color: #fff003;
+  }
+  .banner {
+    background-image: url("./final\ project\ imagines/banner.jpg");
+    display: block;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    padding:60px;
+    margin:0px;
+  }
+  .banner > h1 {
+    padding: 40px;
+    font-size: 60px;
+    color: #fff;
+    font-family:cursive;
+    text-shadow:2px 2px #333;
+  }
+  .banner > button {
+  align-items: center;
+  background-color: initial;
+  background-color: #333;
+  opacity: 0.9;
+  border-radius: 8px;
+  border-width: 1px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .1),0 3px 6px rgba(0, 0, 0, .05);
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  flex-direction: column;
+  font-family: expo-brand-demi,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 18px;
+  height: 52px;
+  justify-content: center;
+  line-height: 1;
+  margin: 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0 32px;
+  text-align: center;
+  text-decoration: none;
+  transform: translate3d(0, 0, 0);
+  transition: all 150ms;
+  vertical-align: baseline;
+  white-space: nowrap;
+  user-select: none;
+  touch-action: manipulation;
+}
+
+.banner > button:hover {
+  box-shadow: rgba(0, 1, 0, .2) 0 2px 8px;
+  opacity: .6;
+}
+
+
+.banner > button:focus{
+  box-shadow: rgba(0, 0, 0, .5) 0 0 0 3px;
+}
+
+@media (max-width: 420px) {
+  .banner > button {
+    height: 48px;
+  }
+}
+  
+  main {
+    padding: 20px;
+  }
+  
+  .favorites {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .menu-item {
+    width: calc(33.33% - 50px);
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .menu-item img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .menu-item h3 {
+    margin: 0;
+  }
+  
+  .menu-item p {
+    margin: 10px 0;
+  }
+  
+  .menu-item button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .shopping-cart-login i {
+    float:right;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+  }
+  h2 {
+    text-align: center;
+    font-family: cursive;
+  }
+  footer {
+    text-align: center;
+    background-color: sienna;
+  }
+ 
+  .img {
+    width: 100px;
+    height: 100px;
+  }
+
+  section {
+    padding: 20px;
+    background: #FFFFFD;
+    text-align: center;
+  }
+  h1 {
+    font-size: 40px;
+    margin-bottom: 35px;
+          font-family: cursive;
+  }
+  .menu-item {
+    display: inline-block;
+    margin: 20px;
+    text-align: left;
+    width: 250px;
+    background-color: #F7F9EC;
+    box-shadow: 0px 0px 5px grey;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .price {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  button {
+    background-color: #bc6c25;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  button:hover {
+    background-color: #3e8e41;
+  }
+
+  
+      

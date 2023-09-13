@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+thead th {
+  text-align: left;
+  font-weight: bold;
+  border-bottom: 2px solid #ccc;
+  padding: 10px;
+}
+
+tbody td {
+  vertical-align: middle;
+  padding: 10px;
+}
+
+.product-name {
+  display: flex;
+  align-items: center;
+}
+
+.product-name img {
+  margin-right: 10px;
+}
+
+.product-price {
+  font-weight: bold;
+}
+
+.product-total {
+  font-weight: bold;
+}
+
+input[type="number"] {
+  width: 50px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.remove {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.remove:hover {
+  background-color: #da190b;
+}
+
+tfoot td {
+  font-weight: bold;
+  padding: 10px;
+}
+
+.subtotal,
+.tax,
+.total {
+  text-align: right;
+}
+
+.checkout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.checkout a {
+  background-color: #f2f2f2;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #333;
+  margin-right: 10px;
+}
+
+.checkout a:hover {
+  background-color: #ccc;
+}
+
+.checkout-btn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.checkout-btn:hover {
+  background-color: #3e8e41;
+}
